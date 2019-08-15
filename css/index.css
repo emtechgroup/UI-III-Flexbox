@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+h1 {
+	font-size: 25px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-top: 25px;
+}
+
+p1 {
+	    padding: 20px;
+}
+
+button {
+	    padding: 20px;
+}
+
+.words {
+    padding: 20px;
+    margin-top: -43px;
+}
+
+.facts {
+    margin-left: -20px;
+}
+
+.services {
+    width: 897px;
+}
+
+button {
+    padding: 2px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 5px;
+    height: 44px;
+    width: 143px;
+    border: 1px solid black;
+}
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header nav a {
+  display: inline-block;
+  margin-top: 35px;
+  margin: 0 20px;
+  color: grey;
+  text-decoration: none;
+}
+
+
+header .logo {
+    margin-left: 690px;
+    margin-top: -50px;
+    margin-bottom: 7px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid lightgrey;
+    margin: 1em 0;
+		margin-top: 40px;
+		margin-bottom: 25px
+    padding: 0;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+first {
+	display: inline-block;
+	column-count: 2;
+	margin-bottom: 40px;
+}
+
+second {
+	display: inline-block;
+	column-count: 2;
+	margin-bottom: 40px;
+}
+
+third {
+	display: inline-block;
+	column-count: 2;
+	margin-bottom: 40px;
+}
+
+fourth {
+	display: inline-block;
+	column-count: 2;
+	margin-bottom: 40px;
+}
+
+left {
+    display: table;
+    background: #dce2e4;
+    /* width: 400px; */
+    height: 200px;
+    border: 1px solid black;
+    margin: 0px 10px 0px 0px;
+}
+
+right {
+    display: table;
+    background: #dce2e4;
+    /* width: 400px; */
+    height: 200px;
+    border: 1px solid black;
+    margin: 0px 0px 0px 10px;
+}
+
+.line2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid black;
+    margin: 1em 0;
+		margin-top: 40px;
+		margin-bottom: 25px
+    padding: 0;
+}
+
+.services-info-img {
+    margin-left: 20px;
+    margin-top: 20px;
+}

@@ -118,18 +118,15 @@ header nav a {
   text-decoration: none;
 }
 
-nav2 {
-	margin-top: 25px;
-	display: inline-block;
-  margin: 0 20px;
-  color: grey;
-  text-decoration: none;
-}
 nav {
   margin-top: 35px;
 
 }
 
+.nav2 {
+  margin-top: 35px;
+
+}
 
 header .logo {
     margin-left: 690px;

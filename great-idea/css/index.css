@@ -118,6 +118,9 @@ header nav a {
   text-decoration: none;
 }
 
+.maintitle {
+	font-size: 55px;
+}
 nav {
   margin-top: 35px;
 

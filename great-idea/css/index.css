@@ -118,12 +118,9 @@ header nav a {
   text-decoration: none;
 }
 
-header nav2 {
-  display: inline-block;
+nav {
   margin-top: 35px;
-  margin: 0 20px;
-  color: grey;
-  text-decoration: none;
+  
 }
 
 
